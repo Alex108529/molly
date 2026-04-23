@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Molly - Creando Emociones</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#e63b52,#ff6f61);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* TARJETA */
+
+.card{
+background:white;
+width:360px;
+border-radius:25px;
+text-align:center;
+padding:30px 20px;
+box-shadow:0 15px 35px rgba(0,0,0,0.25);
+animation:entrada 1.2s;
+}
+
+@keyframes entrada{
+from{transform:scale(.8);opacity:0;}
+to{transform:scale(1);opacity:1;}
+}
+
+.top{
+background:#ffc83d;
+height:110px;
+border-radius:25px 25px 0 0;
+margin:-30px -20px 20px -20px;
+}
+
+.logo{
+width:130px;
+margin-top:-70px;
+}
+
+/* TEXTOS */
+
+.titulo{
+font-size:24px;
+font-weight:bold;
+color:#e63b52;
+}
+
+.subtitulo{
+font-size:15px;
+color:#333;
+margin:5px 0;
+}
+
+.descripcion{
+font-size:14px;
+color:#555;
+margin-top:10px;
+}
+
+/* INFO EXTRA */
+
+.info{
+margin-top:10px;
+font-size:13px;
+color:#444;
+}
+
+.telefono{
+margin-top:15px;
+font-weight:bold;
+color:#e63b52;
+}
+
+/* BOTONES */
+
+.btn{
+display:block;
+margin-top:10px;
+padding:12px;
+color:white;
+text-decoration:none;
+border-radius:25px;
+font-weight:bold;
+}
+
+.whatsapp{background:#25D366;}
+.instagram{background:#E4405F;}
+.facebook{background:#1877F2;}
+
+.btn:hover{
+opacity:0.9;
+}
+
+.footer{
+margin-top:15px;
+font-size:12px;
+color:#777;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="top"></div>
+
+<img src="molly.jpg" class="logo">
+
+<div class="titulo">Molly 🎁</div>
+
+<div class="subtitulo">Creando emociones</div>
+
+<div class="descripcion">
+Regalos personalizados y detalles especiales para sorprender a quien más quieres ❤️
+</div>
+
+<div class="info">
+📍 Pasto, Nariño <br>
+🕒 Atención: 9:00 AM - 8:00 PM
+</div>
+
+<div class="telefono">
+📞 +57 312 6042993
+</div>
+
+<a class="btn whatsapp" href="https://wa.me/573126042993" target="_blank">
+💬 Pedir por WhatsApp
+</a>
+
+<a class="btn instagram" href="https://www.instagram.com/regalosmoly" target="_blank">
+📸 Instagram
+</a>
+
+<a class="btn facebook" href="https://www.facebook.com/share/1DvTrRA1NN/" target="_blank">
+📘 Facebook
+</a>
+
+<div class="footer">
+Molly © 2026 - Detalles que enamoran 💝
+</div>
+
+</div>
+
+</body>
+</html>
